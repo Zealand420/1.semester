@@ -1,17 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(static/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(static/Rubik-Medium.ttf);
+}
 
 
-
-
-
-.hovedsection img{
+.coverbillede{
     width: 100%;
     height: 100%;
 }
 
-.hovedsection h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: (-50% -50%);
-    color: aqua;
+.visuelkodedesign{
+    background-color: #F5F5F5;
+    text-align: center;
 }
+
+.visuelkodedesign h1{
+    font-family: rubik;
+}
+
+.visuelboks{
+    width: 100%;
+}
+
+.erfaring{
+    padding: 10px 0px 10px 0px;
+}
+
+.visuelboks p{
+    text-align: center;
+    color: #40C9A2;
+    font-family: roboto;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.ikon1{
+    color: #FF9300;
+    font-size: 100px;
+    margin: 10px;
+}
+
+.ikon2{
+    color: #1A80CE;
+    font-size: 100px;
+}
+
+.html{
+    width: 60%;
+    background-color: #40C9A2;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.css{
+    width: 60%;
+    background-color: #40C9A2;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.ps{
+    width: 56%;
+    background-color: #40C9A2;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.Xd{
+    width: 70%;
+    background-color: #40C9A2;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.Ai{
+    width: 12%;
+    background-color: #40C9A2;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.fakta{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    font-family: roboto;
+    font-size: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.fakta p{
+    margin: 20px 0px 20px 0px;
+}
+
+.stor-tal{
+    font-size: 75px;
+    color: #40C9A2;
+    margin: -20px 0px -20px 0px;
+}
+
