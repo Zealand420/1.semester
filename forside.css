@@ -23,6 +23,7 @@
 .visuelkodedesign{
     background-color: #F5F5F5;
     text-align: center;
+    padding: 20px;
 }
 
 .visuelkodedesign h1{
@@ -107,6 +108,48 @@
 .stor-tal{
     font-size: 75px;
     color: #40C9A2;
-    margin: -20px 0px -20px 0px;
+
 }
 
+.studerene{
+    text-align: center;
+    background-color: #F5F5F5;
+
+}
+
+.studerene h2{
+    font-family: rubik;
+    padding: 20px;
+}
+
+.deskbillede{
+    width: 250px;
+}
+
+.imgikon{
+    width: 90px;
+    margin: 0px 50px 0px 50px ;
+}
+
+.fremhævet{
+    text-align: center;
+    background-color:#40C9A2;
+    color: #F5F5F5;
+    font-family: rubik;
+    padding: 20px 0px 10px 0px;
+}
+
+.fremhævet h1{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.fremhævet img{
+    width: 250px;
+}
+
+.fremhævet p{
+    margin: 20px 0px 15px 0px;
+    font-family: roboto;
+
+}
