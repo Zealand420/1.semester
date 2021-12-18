@@ -192,6 +192,11 @@
     padding: 20px 0px 20px 0px;
 }
 
+.fakta h2{
+    font-family: rubik;
+    font-size: 24px;
+}
+
 .fakta p{
     margin: 20px 0px 20px 0px;
 }

@@ -138,31 +138,39 @@
     padding: 20px;
 }
 
+.kontaktform h2{
+    margin-bottom: 10px;
+    font-family: rubik;
+    text-align: center;
+}
+
 .kform{
-    margin: 0px 0px 0px 12px;
+    margin: 0px 0px 0px 35px;
 }
 
 .tkontakt{
     color: rgb(255, 255, 255);
     font-size: 10px;
-    
 }
 
-#Kommentar{
+#kommentar{
     height: 200px;
     width: 250px;
 }
 
-#fname{
+#navn{
     width: 250px;
+    margin-bottom: 10px;
 }
 
 
 #telefon{
     width: 250px;
+    margin-bottom: 10px;
 }
 
-#email{
+#e-mail{
     width: 250px;
+    margin-bottom: 10px;
 }
 
