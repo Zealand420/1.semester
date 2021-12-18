@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(static/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(static/Rubik-Medium.ttf);
+}
+
+.mainsection{
+    background-color: #40C9A2;
+    background-image: linear-gradient(#40C9A2 65%, #000000);
+    height: 300px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    color: #F5F5F5;
+}
+
+.mainsection h1{
+    font-family: rubik;
+    font-size: 35px;
+    margin: px 0px 0px 0px;
+}
+
+.mainsection p{
+    font-family: roboto;
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+    margin: 20px 0px 0px 0px;
+}
+
+/*Hvis tekst skal have lidt skygge*/
+
+.shadowbrødtekst{
+    text-shadow: 2px 2px 8px black;
+}
+
+/*Gælder for alle projekter*/
+
+.projekter{
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.rumrejsenbaggrund{
+    background-image:url("/mobil/Rumrejsenbaggrund.png");
+    height: 1000px;
+}
+
+.projekter h4{
+    font-size: 30px;
+    font-family: rubik;
+    margin: 20px 0px 0px 0px;
+}
+
+
+.projekter p{
+    font-size: 15px;
+    font-family: roboto;
+    margin: 15px 0px 0px 0px;
+}
+
+.projekter img{
+    margin-top: 30px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 350px;
+    padding: 10px;
+    grid-template-rows: 400px 300px;
+    justify-content: center;
+    grid-row-gap: 75px;
+}
+
+
+/*Dans, dans, dans - del 1*/
+
+.dansdel1bagrund{
+    background-image:url("/mobil/Dansx3d1.png");
+    height: 1000px;
+}
+
+/*Video projekt*/
+
+.videobagrund{
+    background-image:url("/mobil/Ludomobil.png");
+    height: 1000px;
+}
+
+/*Ide konkurrencen projekt*/
+
+.iværksætterbaggrund{
+    background-image:url("/mobil/Iværksætterbaggrund.png");
+    height: 1000px;
+}
+
+/*Dans, dans, dans - Del 2*/
+
+.dansdel2baggrund{
+    background-image:url("/mobil/Jivebaggrund.png");
+    height: 1000px;
+}
+
+/*SoMe projekt*/
+
+.somebaggrund{
+    background-image:url("/mobil/SoMebaggrund.png");
+    height: 1000px;
+}
+
