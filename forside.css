@@ -106,6 +106,16 @@
 
 /*Main mobil section*/
 
+.velkommen{
+   height: 200px;
+   background-color: black;
+   color: #40C9A2;
+   text-align: center;
+    font-family: rubik;
+    font-size: 24px;
+    padding: 85px 0px 0px 0px;
+}
+
 .coverbillede{
     width: 100%;
     height: 100%;
@@ -172,7 +182,6 @@
     color: #40C9A2;
     font-family: roboto;
 }
-
 
 
 .visuelboks{
@@ -243,7 +252,7 @@
 
 .studerene{
     text-align: center;
-    background-color: #F5F5F5;
+    background-color: #40C9A2;
 
 }
 
@@ -263,8 +272,8 @@
 
 .fremhævet{
     text-align: center;
-    background-color:#40C9A2;
-    color: #F5F5F5;
+    background-color:#F5F5F5;
+    color: #000000;
     font-family: rubik;
     padding: 20px 0px 10px 0px;
 }
@@ -281,5 +290,19 @@
 .fremhævet p{
     margin: 20px 0px 15px 0px;
     font-family: roboto;
+
+}
+
+@media screen and (min-width:428px) {
+
+
+
+
+
+
+
+
+
+
 
 }
