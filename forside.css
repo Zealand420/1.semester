@@ -14,6 +14,10 @@
     src: url(static/Rubik-Medium.ttf);
 }
 
+body{
+    background-color: #F5F5F5;
+}
+
 /*Mobil navigation*/
 
 .logo{
@@ -51,7 +55,6 @@
     color: black;
     padding: 1rem;
     display: block;
-    border-top: solid black 2px;
 }
     
     
@@ -116,11 +119,6 @@
     padding: 85px 0px 0px 0px;
 }
 
-.coverbillede{
-    width: 100%;
-    height: 100%;
-}
-
 .visuelkodedesign{
     background-color: #F5F5F5;
     text-align: center;
@@ -152,7 +150,7 @@
 .grid-containerto{
     display: grid;
     grid-template-columns: 300px;
-    grid-template-rows: 40px 105px 50px;
+    grid-template-rows: 220px 220px 220px;
     justify-content: center;
     grid-row-gap: 0px;
     padding-bottom: 20px;
@@ -248,8 +246,6 @@
 }
 
 
-
-
 .studerene{
     text-align: center;
     background-color: #40C9A2;
@@ -270,6 +266,15 @@
     margin: 0px 50px 0px 50px ;
 }
 
+
+.grid-containertre{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 360px 360px 360px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
 .fremhævet{
     text-align: center;
     background-color:#F5F5F5;
@@ -280,7 +285,7 @@
 
 .fremhævet h1{
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .fremhævet img{
@@ -288,21 +293,191 @@
 }
 
 .fremhævet p{
-    margin: 20px 0px 15px 0px;
+    margin: 0px 0px 15px 0px;
     font-family: roboto;
 
 }
 
-@media screen and (min-width:428px) {
+@media screen and (min-width:768px) {
 
+    /*desktop nav*/
 
+    .logo{
+       font-size: 40px;
+       margin-bottom: 20px;
+    }
+    .toggle-button{
+        display: none;
+    }
 
+    .navbar{
+        flex-direction: row;
+        align-items: center;
+        min-width: none;
+    }
 
+    .navbar-links{
+        width: 45%;
+        display: inline;
 
+    }
 
+    .navbar-links li{ 
+        display: inline-block;
+        justify-content: right;
+    }
 
+    .navbar-links ul{
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+    }
 
+    li{
+        float: right;
+    }
+    
+    li a{
+        display: block;
+        color: #ffffff;
+        margin: 10px 0px 0px 30px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: rubik;
+        
+    }
+    
+    li i{
+        margin: 0;
+    }
+    
+    
+    /*Main section*/
 
+    .velkommen{
+        height: 900px;
+        color: #40C9A2;
+        text-align: center;
+        font-family: rubik;
+        font-size: 75px;
+        padding: 400px 0px 0px 0px;
+        background-image:url("/desktop/coverbillede.png");
+     }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 200px 500px 200px;
+        grid-template-rows: 150px;
+        justify-content: center;
+    }
+    
+    .visuelkodedesign{
+        background-color: #F5F5F5;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .visuelkodedesign h1{
+        font-family: rubik;
+        font-size: 50px;
+        margin: 20px 0px 30px 0px;
+    }
+
+    .grid-item p{
+        font-size: 20px;
+        font-family: roboto;
+        color: #40C9A2;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .html{
+        width: 60%;
+        background-color: #40C9A2;
+        margin: 50px 0px 0px 0px;
+        border: 1px solid black;
+    }
+    
+    .css{
+        width: 60%;
+        background-color: #40C9A2;
+        margin: 50px 0px 0px 0px;
+        border: 1px solid black;
+    }
+    
+    .ps{
+        width: 56%;
+        background-color: #40C9A2;
+        margin: 50px 0px 0px 0px;
+        border: 1px solid black;
+    }
+    
+    .Xd{
+        width: 70%;
+        background-color: #40C9A2;
+        margin: 50px 0px 0px 0px;
+        border: 1px solid black;
+    }
+    
+    .Ai{
+        width: 12%;
+        background-color: #40C9A2;
+        margin: 50px 0px 0px 0px;
+        border: 1px solid black;
+    }
+    
+    .grid-containerto{
+        display: grid;
+        grid-template-columns: 300px 300px 300px; 
+        grid-template-rows: 200px;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .fakta h2{
+        font-family: rubik;
+        font-size: 50px;
+        color: #F5F5F5;
+        padding: 20px;
+    }
+
+    .grid-containertre{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 360px;
+        justify-content: center;
+        padding-bottom: 20px;
+        grid-column-gap: 30px;
+    }
+
+    .fremhævet{
+        text-align: center;
+        background-color:#F5F5F5;
+        color: #000000;
+        font-family: rubik;
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .fremhævet h1{
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+    
+    .fremhævet img{
+        width: 300px;
+    }
+    
+    .fremhævet p{
+        font-size: 25px;
+        margin: 50px 0px 15px 0px;
+        font-family: roboto;
+    
+    }
+    
+    .studerene h2{
+        font-family: rubik;
+        padding: 20px;
+        font-size: 30px;
+    }
 
 
 }
