@@ -264,25 +264,26 @@ li i{
     margin: 0;
 }
 
+/*main desktop version*/
+
 .mainsection{
     background-color: #40C9A2;
     background-image: linear-gradient(#40C9A2 65%, #000000);
-    height: 300px;
+    height: 350px;
     text-align: center;
-    padding: 20px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
     color: #F5F5F5;
 }
 
 .mainsection h1{
     font-family: rubik;
-    font-size: 35px;
-    margin: px 0px 0px 0px;
+    font-size: 75px;
 }
 
 .mainsection p{
     font-family: roboto;
     font-size: 20px;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 150px 0px 150px;
     margin: 20px 0px 0px 0px;
 }
 
@@ -290,31 +291,8 @@ li i{
     display: grid;
     grid-template-columns: 500px 500px;
     padding: 10px;
-    grid-template-rows: 1000px;
     justify-content: center;
-    grid-column-gap: 200px;
-}
-
-.mainsection{
-    background-color: #40C9A2;
-    background-image: linear-gradient(#40C9A2 65%, #000000);
-    height: 300px;
-    text-align: center;
-    padding: 20px 0px 0px 0px;
-    color: #F5F5F5;
-}
-
-.mainsection h1{
-    font-family: rubik;
-    font-size: 35px;
-    margin: px 0px 0px 0px;
-}
-
-.mainsection p{
-    font-family: roboto;
-    font-size: 15px;
-    padding: 0px 10px 0px 10px;
-    margin: 20px 0px 0px 0px;
+    grid-column-gap: 150px;
 }
 
 /*Hvis tekst skal have lidt skygge*/
@@ -333,27 +311,32 @@ li i{
 .projekter h4{
     font-size: 50px;
     font-family: rubik;
-    margin: 20px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
+    padding: 20px;
 }
 
 
 .projekter p{
-    font-size: 15px;
+    font-size: 20px;
     font-family: roboto;
     margin: 15px 0px 0px 0px;
 }
 
+.grid-container p{
+    margin-top: 300px;
+}
+
 .projekter img{
-    margin-top: 30px;
-    width: 500px;
-    height: 600px;
+    margin-top: 250px;
+    width: 400px;
+    height: 500px;
 }
 
 /*rumrejsen*/
 
 .rumrejsenbaggrund{
     background-image:url("/desktop/Rumrejsenbaggrund.png");
-    height: 1000px;
+    height: 1080px;
 }
 
 /*Dans, dans, dans - del 1*/
@@ -392,9 +375,5 @@ li i{
 }
 
 /*main desktop version*/
-
-
-
-   
 
 }
