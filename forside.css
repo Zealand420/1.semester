@@ -125,7 +125,7 @@ body{
     padding: 20px;
 }
 
-.visuelkodedesign h1{
+.visuelkodedesign h2{
     font-family: rubik;
 }
 
@@ -283,7 +283,7 @@ body{
     padding: 20px 0px 10px 0px;
 }
 
-.fremhævet h1{
+.fremhævet h2{
     margin-bottom: 20px;
     font-size: 25px;
 }
@@ -377,7 +377,7 @@ body{
         padding: 20px;
     }
     
-    .visuelkodedesign h1{
+    .visuelkodedesign h2{
         font-family: rubik;
         font-size: 50px;
         margin: 20px 0px 30px 0px;
@@ -457,7 +457,7 @@ body{
         padding: 20px 0px 10px 0px;
     }
     
-    .fremhævet h1{
+    .fremhævet h2{
         margin-bottom: 20px;
         font-size: 50px;
     }
