@@ -121,6 +121,60 @@
     font-family: rubik;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 110px 42px 50px;
+    justify-content: center;
+    grid-row-gap: 5px;
+}
+
+.grid-item p{
+    font-size: 20px;
+    font-family: roboto;
+    color: #40C9A2;
+}
+
+.grid-item img{
+    margin-top: 12px;
+}
+
+.grid-containerto{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 40px 105px 50px;
+    justify-content: center;
+    grid-row-gap: 0px;
+    padding-bottom: 20px;
+}
+
+.fakta{
+    text-align: center;
+    background-color: #000000;
+}
+
+.fakta h2{
+    font-family: rubik;
+    font-size: 25px;
+    color: #F5F5F5;
+    padding: 20px;
+}
+
+.grid-tal{
+    font-size: 20px;
+    padding: 15px 0px 0px 0px;
+    font-family: roboto;
+    color: #F5F5F5;
+}
+
+.gridtalstor{
+    font-size: 105px;
+    color: #40C9A2;
+    font-family: roboto;
+}
+
+
+
 .visuelboks{
     width: 100%;
 }
@@ -146,6 +200,7 @@
 .ikon2{
     color: #1A80CE;
     font-size: 100px;
+    margin-top: 10px;
 }
 
 .html{
@@ -183,29 +238,8 @@
     border: 1px solid black;
 }
 
-.fakta{
-    text-align: center;
-    background-color: #000000;
-    color: white;
-    font-family: roboto;
-    font-size: 20px;
-    padding: 20px 0px 20px 0px;
-}
 
-.fakta h2{
-    font-family: rubik;
-    font-size: 24px;
-}
 
-.fakta p{
-    margin: 20px 0px 20px 0px;
-}
-
-.stor-tal{
-    font-size: 75px;
-    color: #40C9A2;
-
-}
 
 .studerene{
     text-align: center;
