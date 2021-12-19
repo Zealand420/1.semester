@@ -121,7 +121,7 @@ body{
 .mainsection h1{
     font-family: rubik;
     font-size: 35px;
-    margin: px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 .mainsection p{
@@ -289,10 +289,10 @@ li i{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 400px 400px;
     padding: 10px;
     justify-content: center;
-    grid-column-gap: 150px;
+    grid-column-gap: 100px;
 }
 
 /*Hvis tekst skal have lidt skygge*/
@@ -330,6 +330,33 @@ li i{
     margin-top: 250px;
     width: 400px;
     height: 500px;
+}
+
+.grid-rumbillede{
+    grid-column: 2/2;
+}
+
+.grid-rumtekst{
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+.grid-ludobillede{
+    grid-column: 2/2;
+}
+
+.grid-ludotekst{
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+.grid-jivebillede{
+    grid-column: 2/2;
+}
+
+.grid-jivetekst{
+    grid-column: 1/1;
+    grid-row: 1/1;
 }
 
 /*rumrejsen*/
