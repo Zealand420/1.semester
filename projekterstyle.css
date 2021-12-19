@@ -218,59 +218,183 @@ body{
 .logo{
     font-size: 40px;
     margin-bottom: 20px;
- }
- .toggle-button{
-     display: none;
- }
+}
+.toggle-button{
+    display: none;
+}
 
- .navbar{
-     flex-direction: row;
-     align-items: center;
-     min-width: none;
- }
+.navbar{
+    flex-direction: row;
+    align-items: center;
+    min-width: none;
+}
 
- .navbar-links{
-     width: 45%;
-     display: inline;
+.navbar-links{
+    width: 45%;
+    display: inline;
 
- }
+}
 
- .navbar-links li{ 
-     display: inline-block;
-     justify-content: right;
- }
+.navbar-links li{ 
+    display: inline-block;
+    justify-content: right;
+}
 
- .navbar-links ul{
-     display: flex;
-     margin: auto;
-     flex-direction: row;
- }
+.navbar-links ul{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+}
 
- li{
-     float: right;
- }
- 
- li a{
-     display: block;
-     color: #ffffff;
-     margin: 10px 0px 0px 30px;
-     text-decoration: none;
-     font-size: 25px;
-     font-family: rubik;
-     
- }
- 
- li i{
-     margin: 0;
- }
+li{
+    float: right;
+}
 
-
-
-
-
-
-
-
+li a{
+    display: block;
+    color: #ffffff;
+    margin: 10px 0px 0px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: rubik;
     
+}
+
+li i{
+    margin: 0;
+}
+
+.mainsection{
+    background-color: #40C9A2;
+    background-image: linear-gradient(#40C9A2 65%, #000000);
+    height: 300px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    color: #F5F5F5;
+}
+
+.mainsection h1{
+    font-family: rubik;
+    font-size: 35px;
+    margin: px 0px 0px 0px;
+}
+
+.mainsection p{
+    font-family: roboto;
+    font-size: 20px;
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    padding: 10px;
+    grid-template-rows: 1000px;
+    justify-content: center;
+    grid-column-gap: 200px;
+}
+
+.mainsection{
+    background-color: #40C9A2;
+    background-image: linear-gradient(#40C9A2 65%, #000000);
+    height: 300px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    color: #F5F5F5;
+}
+
+.mainsection h1{
+    font-family: rubik;
+    font-size: 35px;
+    margin: px 0px 0px 0px;
+}
+
+.mainsection p{
+    font-family: roboto;
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+    margin: 20px 0px 0px 0px;
+}
+
+/*Hvis tekst skal have lidt skygge*/
+
+.shadowbrødtekst{
+    text-shadow: 2px 2px 8px black;
+}
+
+/*Gælder for alle projekter*/
+
+.projekter{
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.projekter h4{
+    font-size: 50px;
+    font-family: rubik;
+    margin: 20px 0px 0px 0px;
+}
+
+
+.projekter p{
+    font-size: 15px;
+    font-family: roboto;
+    margin: 15px 0px 0px 0px;
+}
+
+.projekter img{
+    margin-top: 30px;
+    width: 500px;
+    height: 600px;
+}
+
+/*rumrejsen*/
+
+.rumrejsenbaggrund{
+    background-image:url("/desktop/Rumrejsenbaggrund.png");
+    height: 1000px;
+}
+
+/*Dans, dans, dans - del 1*/
+
+.dansdel1bagrund{
+    background-image:url("/desktop/Dansx3del1baggrund.png");
+    height: 1080px;
+}
+
+/*Video projekt*/
+
+.videobagrund{
+    background-image:url("/desktop/Ludobaggrund.png");
+    height: 1080px;
+}
+
+/*Ide konkurrencen projekt*/
+
+.iværksætterbaggrund{
+    background-image:url("/desktop/Iværksætterbaggrund.png");
+    height: 1080px;
+}
+
+/*Dans, dans, dans - Del 2*/
+
+.dansdel2baggrund{
+    background-image:url("/desktop/Jivebaggrund.png");
+    height: 1080px;
+}
+
+/*SoMe projekt*/
+
+.somebaggrund{
+    background-image:url("/desktop/SoMebaggrund.png");
+    height: 1080px;
+}
+
+/*main desktop version*/
+
+
+
+   
 
 }
