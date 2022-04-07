@@ -108,14 +108,22 @@ body{
 
 /*Main mobil section*/
 
-.velkommen{
-   height: 200px;
-   background-color: black;
-   color: #40C9A2;
-   text-align: center;
+.velkomstside h1{
+    color: #40C9A2;
+    text-align: center;
     font-family: rubik;
-    font-size: 24px;
-    padding: 85px 0px 0px 0px;
+    font-size: 40px;
+    background: black;
+    padding: 30px 0px 5px 0px;
+}
+
+.velkomstside p{
+    background: black;
+    text-align: center;
+    color: #40C9A2;
+    font-family: roboto;
+    padding: 5px 0px 30px 0px;
+    font-size: 25px;
 }
 
 .visuelkodedesign{
@@ -126,6 +134,7 @@ body{
 
 .visuelkodedesign h2{
     font-family: rubik;
+    font-size: 25px;
 }
 
 .grid-container{
@@ -210,7 +219,7 @@ body{
 }
 
 .html{
-    width: 60%;
+    width: 75%;
     background-color: #40C9A2;
     margin: 10px;
     border: 1px solid black;
@@ -260,9 +269,10 @@ body{
     width: 250px;
 }
 
-.imgikon{
-    width: 90px;
-    margin: 0px 50px 0px 50px ;
+.fa-brands{
+    margin: 0px 10px 0px 10px ;
+    font-size: 50px;
+    padding-bottom: 20px;
 }
 
 
@@ -353,15 +363,23 @@ body{
     
     /*Main section*/
 
-    .velkommen{
-        height: 900px;
+    .velkomstside h1{
         color: #40C9A2;
         text-align: center;
         font-family: rubik;
         font-size: 75px;
-        padding: 400px 0px 0px 0px;
-        background-image:url("/desktop/coverbillede.png");
-     }
+        background: black;
+        padding: 30px 0px 5px 0px;
+    }
+
+    .velkomstside p{
+        background: black;
+        text-align: center;
+        color: #40C9A2;
+        font-family: roboto;
+        padding: 5px 0px 30px 0px;
+        font-size: 35px;
+    }
 
     .grid-container{
         display: grid;
@@ -390,7 +408,7 @@ body{
     }
 
     .html{
-        width: 60%;
+        width: 75%;
         background-color: #40C9A2;
         margin: 50px 0px 0px 0px;
         border: 1px solid black;
